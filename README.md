@@ -103,3 +103,201 @@ For development purposes, use the following mock data:
 - Document any assumptions or deviations from the mockup in the `README.md`.
 
 Happy coding! Let’s build an amazing dashboard! 🚀
+# Frontend Task
+
+This project is a responsive web application for a "Global Stats" dashboard, displaying key statistics related to blockchain wallets, transactions, and assets across various chains. The application is built using Next.js for the frontend framework and Redux for state management.
+
+## Design Mockup
+
+The design mockup for the dashboard can be found here: [Design Mockup](https://drive.google.com/drive/folders/1qpC6ZSnGWXMTzaQQyUZTdd-HZULDTsKc?usp=sharing)
+
+## Prerequisites
+
+Before setting up the project locally, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [Yarn](https://yarnpkg.com/)
+
+## Setup Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/Aryanjain75/frontend-task.git
+   cd frontend-task
+Install Dependencies
+
+Using npm:
+
+bash
+Copy
+Edit
+npm install
+Or using Yarn:
+
+bash
+Copy
+Edit
+yarn install
+Start the Development Server
+
+Using npm:
+
+bash
+Copy
+Edit
+npm run dev
+Or using Yarn:
+
+bash
+Copy
+Edit
+yarn dev
+The application will be accessible at http://localhost:3000.
+
+Project Structure
+src/: Contains the main source code for the application.
+public/: Contains public assets like images and fonts.
+pages/: Contains Next.js pages.
+components/: Contains React components used throughout the application.
+styles/: Contains global and component-specific styles.
+Available Scripts
+dev: Starts the development server.
+build: Builds the application for production.
+start: Starts the production server.
+lint: Runs ESLint to check for linting errors.
+Learn More
+To learn more about Next.js and Redux, consider the following resources:
+
+Next.js Documentation
+Redux Documentation
+License
+This project is open-source and available under the MIT License.
+
+arduino
+Copy
+Edit
+
+This README provides setup instructions, dependencies, and a brief guide to run the project locally. For more detailed information, please refer to the project's [GitHub repository](https://github.com/Aryanjain75/frontend-task).
+::contentReference[oaicite:0]{index=0}
+ 
+
+
+
+
+
+
+You said:
+give me long readme
+ChatGPT said:
+markdown
+Copy
+Edit
+# Global Stats Dashboard
+
+This project is a responsive web application that presents a "Global Stats" dashboard, showcasing key statistics related to blockchain wallets, transactions, and assets across various chains. The application is built using Next.js for the frontend framework and Redux for state management, ensuring a seamless and scalable user experience across different devices.
+
+## Table of Contents
+
+- [Design Mockup](#design-mockup)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
+- [Setup Instructions](#setup-instructions)
+- [Project Structure](#project-structure)
+- [Available Scripts](#available-scripts)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Design Mockup
+
+The design mockup for the dashboard can be accessed here: [Design Mockup](https://drive.google.com/drive/folders/1qpC6ZSnGWXMTzaQQyUZTdd-HZULDTsKc?usp=sharing)
+
+## Features
+
+- **Global Stats Section**: Displays four key metrics:
+  - Total Wallets Scored: 12,750
+  - Total Transactions Scored: 1,200,000
+  - Total Assets Scored: 1,000
+  - Total Chains Covered: 20
+
+- **Recent Wallets Section**: Lists the five most recent wallets with the following details:
+  - Wallet Address
+  - Chain
+  - Date Added
+  - Risk Score (with color-coded risk levels: Low, Medium, High)
+
+- **Recent Transactions Section**: Lists the five most recent transactions with the following details:
+  - Transaction Hash
+  - Wallet Address
+  - Chain
+  - Date
+  - Risk Score (with color-coded risk levels: Low, Medium, High)
+
+## Technologies Used
+
+- **Next.js**: A React-based framework for building server-side rendered and statically generated web applications.
+- **Redux**: A predictable state container for JavaScript applications, used for managing the application state.
+- **TypeScript**: A statically typed superset of JavaScript that enhances code quality and maintainability.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **ESLint**: A tool for identifying and fixing linting errors in the codebase.
+- **PostCSS**: A tool for transforming CSS with JavaScript plugins.
+
+## Prerequisites
+
+Before setting up the project locally, ensure you have the following installed:
+
+- **Node.js**: Version 14 or higher is required. You can download it from the [official website](https://nodejs.org/).
+- **npm**: Comes bundled with Node.js. Alternatively, you can use [Yarn](https://yarnpkg.com/) as a package manager.
+
+## Setup Instructions
+
+1. **Clone the Repository**
+
+   Open your terminal and run:
+
+   git clone https://github.com/Aryanjain75/frontend-task.git
+   cd frontend-task
+Install Dependencies
+
+Using npm:
+
+npm install
+Or using Yarn:
+
+yarn install
+Start the Development Server
+
+Using npm:
+
+bash
+Copy
+Edit
+npm run dev
+Or using Yarn:
+
+bash
+Copy
+Edit
+yarn dev
+The application will be accessible at http://localhost:3000.
+
+Project Structure
+public/: Contains public assets such as images and fonts.
+src/: Contains the main source code for the application.
+components/: Reusable React components used throughout the application.
+pages/: Next.js pages that map to different routes in the application.
+redux/: Redux setup, including actions, reducers, and store configuration.
+styles/: Global and component-specific styles.
+next.config.ts: Configuration file for Next.js.
+postcss.config.mjs: Configuration file for PostCSS.
+tsconfig.json: TypeScript configuration file.
+.eslintrc.json: ESLint configuration file.
+Available Scripts
+dev: Starts the development server.
+build: Builds the application for production.
+start: Starts the production server.
+lint: Runs ESLint to check for linting errors.
+Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request. When contributing, please ensure that your code adheres to the existing code style and that all tests pass.
