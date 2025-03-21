@@ -44,7 +44,7 @@ const chainsSlice = createSlice({
       state.filteredChains = state.chains.filter((chain) =>
         chain.name.toLowerCase().includes(action.payload.toLowerCase())
       );
-      state.currentPage = 1; // Reset to first page after search
+      state.currentPage = 1; 
     },
     setChains(state, action: PayloadAction<Chain[]>) {
       state.chains = action.payload;

@@ -47,7 +47,6 @@ const Home: React.FC = () => {
     dispatch(setChartData(data["Wallet Distribution"]))
     dispatch(setCurrentPage(data["Assets"]))
     dispatch(setChains(data["Chains"]))
-    console.log(data["Chains"]);
   }
   useEffect(() => {
     updateStatsData()
